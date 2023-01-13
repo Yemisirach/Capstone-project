@@ -215,7 +215,8 @@ ul {
 .creat-wrapper h1 {
   font-size: 45px;
   line-height: 0.9em;
-  font-weight: 900;
+
+  /* background-image: url(./image/bg3.avif); */
   background-position: left 90%;
   background-clip: text;
   color: transparent;
@@ -506,14 +507,14 @@ hr {
 .contact-text {
   background-color: rgb(212, 209, 209);
   text-align: center;
-  font-size: 0.8rem;
+  font-size: 1.1rem;
   padding: 1.5rem 2rem;
   color: var(--main-text-color);
 }
 
 .email-contact {
   background-color: rgb(212, 209, 209);
-  font-size: 0.8rem;
+  font-size: 1rem;
   text-decoration: underline;
   text-align: center;
 }
@@ -763,12 +764,11 @@ hr {
   .window-desktop-nav {
     display: flex;
     justify-content: space-between;
-    margin: 2%;
+    margin: 2% 2% 2% 20%;
     align-items: center;
     width: 700px;
     flex-direction: row;
     height: 30px;
-    margin-right: 14%;
   }
 
   .window-desktop-nav li {
@@ -830,7 +830,7 @@ hr {
     color: #ec5242;
     font-weight: 600;
     width: 100px;
-    height: 40px;
+    height: 20px;
   }
 
   .canpion {
@@ -847,6 +847,7 @@ hr {
   .hello-wrapperh {
     color: #ec5242;
     font-size: 45px;
+    margin-top: 110px;
     font-weight: 600;
   }
 
@@ -855,7 +856,7 @@ hr {
     color: #ec5242;
     font-size: 65px;
     line-height: 60px;
-    font-weight: 700;
+    font-weight: 900;
   }
 
   .description {
@@ -1043,7 +1044,7 @@ hr {
   }
 
   hr {
-    margin-left: 45%;
+    margin-left: 394px;
   }
 
   /* partner start */
@@ -1057,9 +1058,6 @@ hr {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 8%;
-    height: 200px;
-    margin-top: 10%;
   }
 
   /* footer start */
@@ -1072,7 +1070,7 @@ hr {
 
   .left-container {
     align-items: center;
-    padding-left: 20rem;
+    padding-left: 5rem;
     display: flex;
     justify-content: center;
   }
@@ -1081,7 +1079,6 @@ hr {
     width: 200px;
     height: 60px;
     margin-right: 0.5rem;
-    margin-left: 8%;
   }
 
   .footer-heading,
@@ -1104,7 +1101,6 @@ hr {
   .main-heading {
     color: #e53d3d;
     font-size: 45px;
-    margin-top: 3%;
     font-weight: 900;
     width: 50%;
     margin-left: 20%;
@@ -1114,13 +1110,13 @@ hr {
     display: flex;
     background-color: #d3d3d3;
     justify-content: center;
-    width: 40%;
+    width: 80%;
     color: #515356;
-    font-size: 12px;
+    font-size: 20px;
   }
 
   .logo-description {
-    font-size: 0.8rem;
+    font-size: 1rem;
     line-height: 1.2rem;
     width: 300px;
     margin-left: 38%;
@@ -1134,5 +1130,12 @@ hr {
   .about-logo-img {
     width: 200px;
     height: 90px;
+  }
+
+  .about-description {
+    margin: 1.5rem auto 0;
+    background-color: rgb(212, 209, 209);
+    padding: 0%;
+    border: 1px solid var(--border-lines-color);
   }
 }
