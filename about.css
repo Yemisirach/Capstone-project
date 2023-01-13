@@ -12,6 +12,14 @@ body {
   font-family: "Lato", sans-serif;
 }
 
+.uk-background-norepeat {
+  background-image: url("https://ntb.gov.np/storage/website/landscape2-44237cb6.jpeg");
+}
+
+.uk-position-cover {
+  background-color: rgba(255, 255, 255, 0.79);
+}
+
 .hideElement {
   display: none !important;
 }
