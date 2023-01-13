@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
 }
+
 body {
   margin: 0;
   padding: 0;
@@ -98,15 +99,12 @@ body {
   padding-top: 7%;
 }
 
-.menu-list > ul {
-  padding-inline-start: 45px;
-  /* padding-top: 50px; */
-  /* position: relative; */
-  /* display: none; */
+ul {
+  padding: 0;
 }
 
-.card-tools-list li {
-  width: 100%;
+.menu-list > ul {
+  padding-inline-start: 45px;
 }
 
 .menu-list ul li {
@@ -136,6 +134,7 @@ body {
   line-height: 44px;
   color: #f0eeee;
   text-decoration: none;
+
   /* display: none; */
 }
 
@@ -151,9 +150,11 @@ body {
   padding: 30px;
   background-color: #ec5242;
 }
+
 .deskop-version {
   display: none;
 }
+
 /* ***** */
 .nav-wrapper {
   height: 70px;
@@ -161,9 +162,11 @@ body {
   align-items: center;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
+
 .logo-wrapper {
   display: none;
 }
+
 .bi {
   color: orange;
   font-size: 40px;
@@ -171,15 +174,18 @@ body {
   display: flex;
   justify-content: center;
 }
-bi1 {
+
+.bi-one {
   color: cornsilk;
   font-size: 12px;
 }
+
 .science {
   font-size: 15px;
   width: 150px;
   color: #ec5242;
 }
+
 .home-wrapper {
   background-color: #d3d3d3;
   color: transparent;
@@ -189,50 +195,61 @@ bi1 {
 .bg-wrapper {
   display: none;
 }
+
 .canpion {
   display: none;
 }
+
 .hello-wrapper {
   background-color: #d3d3d3;
   mix-blend-mode: multiply;
   height: 150px;
 }
+
 .hello-wrapperh {
   color: #ec5242;
   font-size: 30px;
   font-weight: 600;
 }
+
 .creat-wrapper h1 {
   font-size: 45px;
   line-height: 0.9em;
+
   /* background-image: url(./image/bg3.avif); */
   background-position: left 90%;
   background-clip: text;
   color: transparent;
   color: #ec5242;
 }
+
 .description {
   color: #272a31;
 }
+
 .pargraph {
   width: 300px;
   font-size: 12px;
 }
+
 .date {
   font-size: 14px;
   font-weight: 700;
 }
+
 .place {
   font-size: 12px;
   font-weight: 200;
   margin-bottom: 100px;
 }
+
 /* main */
 .mainwrapper {
   background-color: #000;
   background-image: url(./image/carbon_fibre.png);
   height: 960px;
 }
+
 .mainProgramdiv-wrapper {
   display: flex;
   justify-content: center;
@@ -240,6 +257,7 @@ bi1 {
   align-items: center;
   margin-top: 30px;
 }
+
 .mainwrapperone {
   width: 375px;
   display: flex;
@@ -249,6 +267,7 @@ bi1 {
   font-size: 16px;
   color: aliceblue;
 }
+
 .mainProgram-wrapper {
   display: flex;
   justify-content: center;
@@ -259,6 +278,7 @@ bi1 {
   color: aliceblue;
   margin-top: 200px;
 }
+
 .mainwrapper-list {
   background-color: hsla(220, 3%, 39%, 0.489);
   border: 1px;
@@ -267,11 +287,11 @@ bi1 {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
-  padding-top: 60px;
   padding: 1rem 0.5rem;
   list-style: none;
   align-items: center;
 }
+
 .card-title h2 {
   font-size: 12px;
   color: #ec5242;
@@ -281,9 +301,7 @@ bi1 {
   display: flex;
   justify-content: center;
 }
-ul {
-  padding: 0;
-}
+
 .paragraph-wrapper {
   padding-top: 25px;
   align-items: center;
@@ -291,6 +309,7 @@ ul {
   width: 170px;
   height: 140px;
 }
+
 .wholeProgram {
   display: flex;
   justify-content: center;
@@ -303,22 +322,27 @@ ul {
   border: 1px;
   background-color: #ec5242;
 }
+
 .wholeProgram a {
   color: #d3d3d3;
   text-decoration: none;
 }
+
 .wholeProgram1 {
   display: none;
 }
+
 .mainwrappe ul:hover {
   border: 2px solid gray;
 }
+
 /* feature */
 .feature-speaker {
   margin: 2rem;
   display: grid;
   margin-top: 5rem;
 }
+
 .single-feature-speker {
   display: flex;
   justify-content: center;
@@ -330,24 +354,30 @@ ul {
   height: 200px;
   margin-top: 2rem;
 }
+
 .image {
   position: relative;
 }
+
 .speaker-description {
   margin-left: 2rem;
 }
+
 .speaker-name {
   padding-bottom: 0.5rem;
   font-size: 0.9rem;
 }
+
 .speaker-details {
   color: #ec5242;
   font-size: 0.8rem;
   font-style: italic;
 }
+
 .border-line1 {
   display: none;
 }
+
 .border-line {
   border-bottom: 1px solid;
   width: 40px;
@@ -356,19 +386,11 @@ ul {
   margin: 4px;
 }
 
-.border-line1 {
-  border-bottom: 1px solid;
-  width: 50px;
-  height: 1px;
-  background-color: #e53d3d;
-  margin-top: 50px;
-  justify-content: center;
-  /* margin-left: 50%; */
-}
 .speaker-background {
   color: #272a31;
   font-size: 0.8rem;
 }
+
 .bg-img {
   position: absolute;
   width: 70px;
@@ -376,25 +398,30 @@ ul {
   top: -12%;
   left: -20%;
 }
+
 .avatar {
   display: block;
   width: 130px;
   height: 160px;
 }
+
 .FeauredSpeakers {
   display: flex;
   justify-content: center;
   margin-top: 6rem;
 }
+
 hr {
   width: 100px;
   color: #e53d3d;
   height: 7px;
   margin-left: 150px;
 }
+
 .hidde {
   display: none;
 }
+
 /* feature-speaker end  */
 
 /* partner section */
@@ -422,6 +449,7 @@ hr {
 .partners-logo {
   width: 100px;
 }
+
 /* .partner section end  */
 
 /* footer section */
@@ -522,6 +550,7 @@ hr {
   padding: 1rem 2rem;
   margin: 2rem auto;
 }
+
 #about {
   background-color: #d3d3d3;
   padding-bottom: 1rem;
@@ -632,25 +661,34 @@ hr {
 .footer-description-about {
   color: var(--program-text-color);
 }
+
 /* about page end */
 #partner,
 #footer {
   display: none;
 }
+
 @media screen and (min-width: 768px) {
+  .wholeProgram1 a {
+    color: #d3d3d3;
+  }
+
   .header-wraper {
     display: block;
     background-color: #272a31;
     height: 25px;
     align-items: center;
   }
-  .header-wraper ul li a {
-    font-size: 12px;
-    columns: #fff;
+
+  .canpion a {
+    text-decoration: none;
   }
-  .header-wraper ul {
-    margin-right: 5%;
+
+  .logo-wrapper a {
+    display: flex;
+    text-decoration: none;
   }
+
   .header-ul li a {
     display: flex;
     align-items: center;
@@ -663,22 +701,51 @@ hr {
     font-size: 10px;
     color: #fff;
   }
+
+  .window-desktop-nav li a {
+    text-decoration: none;
+    font-size: 15px;
+    list-style: none;
+    color: #000;
+  }
+
+  .header-wraper ul li a {
+    font-size: 12px;
+    columns: #fff;
+  }
+
+  ul {
+    padding: 0;
+  }
+
+  .header-wraper ul {
+    margin-right: 5%;
+  }
+
+  .logo-wrapper img {
+    margin-right: 5px;
+  }
+
   .list-wrraper {
     height: 25px;
   }
+
   .list-wrraper li a img {
     width: 100px;
   }
-  /* menu start*/
+
+  /* menu start */
   #btn {
     display: none;
   }
+
   .nav-wrapper {
     height: 70px;
     display: flex;
     align-items: center;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
   }
+
   .logo-wrapper {
     padding-left: 150px;
     display: flex;
@@ -686,18 +753,13 @@ hr {
     align-items: center;
     color: #ec5242;
   }
-  .logo-wrapper a {
-    display: flex;
-    text-decoration: none;
-  }
-  .logo-wrapper img {
-    margin-right: 5px;
-  }
+
   .science {
     font-size: 15px;
     width: 150px;
     color: #ec5242;
   }
+
   .close-icon {
     display: none;
   }
@@ -713,15 +775,19 @@ hr {
     height: 30px;
     margin-right: 14%;
   }
+
   .window-desktop-nav li {
     list-style: none;
   }
-  .window-desktop-nav li a {
-    text-decoration: none;
+
+  .wholeProgram1 {
+    display: flex;
+    justify-content: center;
+    color: #d3d3d3;
     font-size: 15px;
-    list-style: none;
-    color: #000;
+    align-items: center;
   }
+
   .window-desktop-nav li a:hover {
     color: #ec5242;
   }
@@ -739,11 +805,25 @@ hr {
     height: 560px;
     padding-left: 177px;
   }
+
   .bg-wrapper {
     height: 150px;
     background-image: url(./image/new1.jpg);
     background-position: cover;
     background-repeat: no-repeat;
+  }
+
+  .card-tools-list li {
+    width: 100%;
+  }
+
+  .card-title h2 {
+    font-size: 15px;
+    color: #ec5242;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
   }
 
   .canpion a h2 {
@@ -757,24 +837,25 @@ hr {
     width: 100px;
     height: 40px;
   }
-  .canpion a {
-    text-decoration: none;
-  }
+
   .canpion {
     display: flex;
   }
+
   .hello-wrapper {
     background-color: #958585;
     mix-blend-mode: multiply;
     height: 150px;
     padding-left: 200px;
   }
+
   .hello-wrapperh {
     color: #ec5242;
     font-size: 45px;
-    margin-top: -110pxpx;
+    margin-top: 110px;
     font-weight: 600;
   }
+
   .creat-wrapper h1 {
     width: 960px;
     color: #ec5242;
@@ -782,34 +863,42 @@ hr {
     line-height: 60px;
     font-weight: 700;
   }
+
   .description {
     color: #272a31;
   }
+
   .pargraph {
     width: 600px;
     font-size: 16px;
   }
+
   .date {
     font-size: 30px;
     font-weight: 700;
   }
+
   .place {
     font-size: 25px;
     font-weight: 200;
   }
+
   .deskop-version {
     display: block;
   }
+
   /* main */
   .mainwrapper {
     height: 500px;
     background-color: #000;
     background-image: url(./image/carbon_fibre.png);
   }
+
   .mainProgramdiv-wrapper {
     display: flex;
     margin-left: 35%;
   }
+
   .mainwrapperone {
     display: flex;
     justify-content: center;
@@ -819,6 +908,7 @@ hr {
     font-size: 20px;
     color: aliceblue;
   }
+
   .mainProgram-wrapper {
     display: flex;
     flex-direction: row;
@@ -829,6 +919,7 @@ hr {
     color: aliceblue;
     margin-top: 0;
   }
+
   .mainwrapper-list {
     background-color: hsla(220, 3%, 39%, 0.489);
     border: 1px;
@@ -842,17 +933,7 @@ hr {
     list-style: none;
     align-items: center;
   }
-  .card-title h2 {
-    font-size: 15px;
-    color: #ec5242;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    margin: 10px;
-  }
-  ul {
-    padding: 0;
-  }
+
   .paragraph-wrapper {
     padding: 0;
     font-size: 12px;
@@ -862,19 +943,11 @@ hr {
     display: flex;
     justify-content: center;
   }
+
   .wholeProgram {
     display: none;
   }
-  .wholeProgram1 {
-    display: flex;
-    justify-content: center;
-    color: #d3d3d3;
-    font-size: 15px;
-    align-items: center;
-  }
-  .wholeProgram1 a {
-    color: #d3d3d3;
-  }
+
   /* feature */
   .FeauredSpeakers {
     margin-top: 2rem;
@@ -886,10 +959,12 @@ hr {
     grid-template-columns: 2fr 2fr;
     justify-content: center;
   }
+
   .feature-speaker div {
     display: flex;
     justify-content: center;
   }
+
   .single-feature-speker {
     display: flex;
     flex-direction: row;
@@ -897,9 +972,11 @@ hr {
     margin: 2rem;
     margin-left: 8rem;
   }
+
   .image {
     position: relative;
   }
+
   .speaker-description {
     display: flex;
     flex-direction: column;
@@ -908,30 +985,26 @@ hr {
     width: 250px;
     height: 300;
   }
+
   .speaker-name {
     padding-bottom: 0.5rem;
     font-size: 0.9rem;
   }
+
   .speaker-details {
     color: #ec5242;
     font-size: 0.6rem;
     font-style: italic;
     width: 250px;
   }
+
   .border-line {
     border-bottom: 1px solid;
     width: 40px;
     height: 1px;
     background-color: #969595;
   }
-  .border-line1 {
-    border-bottom: 1px solid;
-    width: 50px;
-    height: 1px;
-    background-color: #e53d3d;
-    margin-top: 310px;
-    margin-left: 50%;
-  }
+
   .speaker-background {
     color: #272a31;
     font-size: 0.8rem;
@@ -944,14 +1017,17 @@ hr {
     top: -12%;
     left: -20%;
   }
+
   .avatar {
     display: block;
     width: 160px;
     height: 160px;
   }
+
   .mobile {
     display: none;
   }
+
   .speaker-btn {
     width: 96%;
     background-color: #fff;
@@ -961,6 +1037,7 @@ hr {
     padding: 4% 0;
     margin-bottom: 8%;
   }
+
   .speakers {
     width: 90%;
     height: auto;
@@ -970,24 +1047,24 @@ hr {
     color: var(--primary-color);
     font-weight: 900;
   }
+
   hr {
     margin-left: 394px;
   }
+
   /* partner start */
   #partner {
     background-color: #272a31;
     height: 200px;
     margin-top: 6%;
   }
+
   .left-container1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
-  .left-container {
-    display: flex;
-    justify-content: center;
-  }
+
   /* footer start */
   #footer {
     padding: 3rem;
@@ -997,9 +1074,10 @@ hr {
   }
 
   .left-container {
-    /* display: flex; */
     align-items: center;
     padding-left: 5rem;
+    display: flex;
+    justify-content: center;
   }
 
   .logo-img {
@@ -1019,10 +1097,12 @@ hr {
     margin-left: 5%;
     font-weight: 100;
   }
+
   /* about page */
   .video-container {
     flex-direction: row;
   }
+
   .main-heading {
     color: #e53d3d;
     font-size: 45px;
@@ -1031,6 +1111,7 @@ hr {
     width: 50%;
     margin-left: 20%;
   }
+
   .main-description {
     display: flex;
     background-color: #d3d3d3;
@@ -1039,20 +1120,24 @@ hr {
     color: #515356;
     font-size: 12px;
   }
+
   .logo-description {
     font-size: 0.8rem;
     line-height: 1.2rem;
     width: 300px;
     margin-left: 38%;
   }
+
   #logo-section {
     background-color: #fff;
     padding: 2rem 0;
   }
+
   .about-logo-img {
     width: 200px;
     height: 90px;
   }
+
   #partner,
   #footer {
     display: block;

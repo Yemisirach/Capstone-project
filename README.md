@@ -6,7 +6,7 @@
 
 Getting Started
 Cloning the project
-Git clone git@github.com:josuerushanika/yemisirachportfolio.github.io.git
+Git clone git@github.com:yemisirachportfolio.github.io.git
 To get a local copy up and running follow these simple example steps.
 Prerequisites
 
@@ -31,7 +31,7 @@ npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standa
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [My-portfolio] <a name="about-project"></a>
+# 📖 [capstone project] <a name="about-project"></a>
 
 Description for the fris mileston in he process of creating your portfolio website.
 
@@ -41,18 +41,22 @@ se up new repository and prepare it for development using best practices(e.g.lin
 
 ## 🛠 Built With <a name="built-with"></a>
 
--Client
+-HTML
+-CSS
+-JAVASCRIPT
 
 ## 🚀 Live Demo
 
 <a href="https://yemisirach.github.io/Capstone/">Live Demo link</a>
+
+## 🚀 Live Demo video
 
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
 To get a local copy up and runing follow these simple example steps.
-1.Clone the Repo or Download the Zip file or git clone git@github.com:Yemisirach/My-Portfoli](https://github.com/Yemisirach/My-Portfolio.git)o.
+1.Clone the Repo or Download the Zip file or git clone git@github.com:Yemisirach/capstone](https://github.com/Yemisirach/capstone.git)o.
 Open it with the live server
 ##Prerequisies
 In order to run this pproject need.
@@ -60,7 +64,7 @@ In order to run this pproject need.
 Clone this repository to your desired folder:
 
 ```sh
-  git clone git@github.com:Yemisirach/yemisirachPortfolio.github.io
+  git clone git@github.com:Yemisirach/yemisirachcapstone.github.io
 ```
 
 👤 **Yemisirach**

@@ -117,23 +117,11 @@ for (let i = 0; i < featureArr.length; i += 1) {
 const moreText = 'MORE <i class="bi-solid bi bi-chevron-down"></i>';
 const lessText = 'LESS <i class="bi-solid bi bi-chevron-up"></i>';
 
-// for (let i = 0; i < featureArr.length; i += 1) {
-//   creatfeaturespeaker(featureArr[i]);
-//   const speakerElems = document.querySelectorAll(".feature-speaker");
-
-//   if (i > 1) {
-//     speakerElems[i].classList.add("hidde");
-//     featureSpeakerBtn.addEventListener("click", () => {
-//       speakerElems[i].classList.toggle("hidde");
-//     });
-//   }
-// }
-
 const allSpeakers = document.querySelectorAll(".single-feature-speker");
 const featureSpeakerBtn = document.getElementById("speaker-btn");
 
 featureSpeakerBtn.addEventListener("click", () => {
-  console.log("More state value: " + moreState);
+  console.log(`More state value: ${moreState}`);
   if (moreState === 1) {
     featureSpeakerBtn.innerHTML = lessText;
     allSpeakers.forEach((speaker, index) => {
