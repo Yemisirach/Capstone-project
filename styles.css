@@ -706,12 +706,12 @@ hr {
   .window-desktop-nav {
     display: flex;
     justify-content: space-between;
-    margin: 1%;
+    margin: 2%;
     align-items: center;
-    width: 600px;
+    width: 700px;
     flex-direction: row;
     height: 30px;
-    margin-right: 30%;
+    margin-right: 14%;
   }
   .window-desktop-nav li {
     list-style: none;
@@ -745,7 +745,9 @@ hr {
     background-position: cover;
     background-repeat: no-repeat;
   }
-  .canpion a {
+
+  .canpion a h2 {
+    display: block;
     border: #ec5242 solid 6px;
     font-size: 14px;
     text-decoration: none;
@@ -760,9 +762,6 @@ hr {
   }
   .canpion {
     display: flex;
-    /* width: 1000px; */
-    /* margin-top: 4%; */
-    /* margin-left: 120%; */
   }
   .hello-wrapper {
     background-color: #958585;
@@ -779,15 +778,16 @@ hr {
   .creat-wrapper h1 {
     width: 960px;
     color: #ec5242;
-    font-size: 70px;
+    font-size: 65px;
     line-height: 60px;
+    font-weight: 700;
   }
   .description {
     color: #272a31;
   }
   .pargraph {
     width: 600px;
-    font-size: 12px;
+    font-size: 16px;
   }
   .date {
     font-size: 30px;
