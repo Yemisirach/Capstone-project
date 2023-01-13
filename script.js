@@ -3,12 +3,16 @@ const closeMenus = document.getElementById("menu-close");
 const menuList = document.querySelectorAll(".menu-item");
 const menuShow = document.getElementById("menu-show");
 
+let moreState = 1;
+
 const openMenu = () => {
+  menuShow.classList.remove("menu-container");
   menuShow.classList.add("show-menu");
 };
 
 const closeMenu = () => {
   menuShow.classList.remove("show-menu");
+  menuShow.classList.add("menu-container");
 };
 
 button.addEventListener("click", openMenu);
@@ -71,6 +75,7 @@ const featureArr = [
 ];
 
 const featureContainer = document.querySelector(".feature-speaker");
+
 const creatfeaturespeaker = () => {
   featureContainer.insertAdjacentHTML(
     "afterbegin",
@@ -108,10 +113,9 @@ for (let i = 0; i < featureArr.length; i += 1) {
   speakerdetail.textContent = featureArr[i].speakerdetail;
   speakerimage.setAttribute("src", featureArr[i].speakerimage);
 }
+
 const moreText = 'MORE <i class="bi-solid bi bi-chevron-down"></i>';
 const lessText = 'LESS <i class="bi-solid bi bi-chevron-up"></i>';
-
-const featureSpeakerBtn = document.querySelector(".speaker-btn");
 
 // for (let i = 0; i < featureArr.length; i += 1) {
 //   creatfeaturespeaker(featureArr[i]);
@@ -125,11 +129,51 @@ const featureSpeakerBtn = document.querySelector(".speaker-btn");
 //   }
 // }
 
+const allSpeakers = document.querySelectorAll(".single-feature-speker");
+const featureSpeakerBtn = document.getElementById("speaker-btn");
+
 featureSpeakerBtn.addEventListener("click", () => {
-  if (featureSpeakerBtn.innerHTML === moreText) {
+  console.log("More state value: " + moreState);
+  if (moreState === 1) {
     featureSpeakerBtn.innerHTML = lessText;
-  } else if (featureSpeakerBtn.innerHTML === lessText) {
+    allSpeakers.forEach((speaker, index) => {
+      if (index > 1) {
+        speaker.classList.remove("hideElement");
+      }
+    });
+
+    moreState = 0;
+  } else if (moreState === 0) {
     featureSpeakerBtn.innerHTML = "";
     featureSpeakerBtn.innerHTML = moreText;
+    allSpeakers.forEach((speaker, index) => {
+      if (index > 1) {
+        speaker.classList.add("hideElement");
+      }
+    });
+
+    moreState = 1;
+  } else {
+    alert("none of condigions");
   }
 });
+
+if (window.innerWidth < 768) {
+  allSpeakers.forEach((speaker, index) => {
+    if (index > 1) {
+      speaker.classList.add("hideElement");
+    }
+  });
+}
+
+function displaySpeakers() {
+  if (window.innerWidth >= 768) {
+    allSpeakers.forEach((speaker, index) => {
+      if (index > 1) {
+        speaker.classList.remove("hideElement");
+      }
+    });
+  }
+}
+
+window.addEventListener("resize", displaySpeakers);

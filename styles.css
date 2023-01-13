@@ -10,6 +10,11 @@ body {
   overflow-x: hidden;
   font-family: "Lato", sans-serif;
 }
+
+.hideElement {
+  display: none !important;
+}
+
 .header-wraper {
   display: none;
 }
@@ -70,13 +75,16 @@ body {
 
 /* Menu */
 .menu-container {
+  display: none;
   position: fixed;
-  top: 0%;
-  left: 0%;
-  width: 0%;
-  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100vh;
   z-index: 1;
-  background: #ec5242;
+  padding: 30px;
+  background-color: #ec5242;
 }
 
 .menu-close-container {
@@ -93,7 +101,7 @@ body {
 .menu-list > ul {
   padding-inline-start: 45px;
   /* padding-top: 50px; */
-  position: relative;
+  /* position: relative; */
   /* display: none; */
 }
 
@@ -102,7 +110,7 @@ body {
 }
 
 .menu-list ul li {
-  position: relative;
+  /* position: relative; */
   width: 100%;
   height: calc(100% - 80px);
   display: flex;
@@ -132,7 +140,16 @@ body {
 }
 
 .show-menu {
-  width: 100%;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100vh;
+  z-index: 1;
+  padding: 30px;
+  background-color: #ec5242;
 }
 .deskop-version {
   display: none;
@@ -290,6 +307,9 @@ ul {
   color: #d3d3d3;
   text-decoration: none;
 }
+.wholeProgram1 {
+  display: none;
+}
 .mainwrappe ul:hover {
   border: 2px solid gray;
 }
@@ -410,11 +430,11 @@ hr {
   display: flex;
   justify-content: space-between;
   height: 100px;
-  /* background-color: #272a31; */
 }
 
 .left-container {
   display: flex;
+  justify-content: center;
   align-items: center;
 }
 
@@ -422,16 +442,16 @@ hr {
   width: 110px;
   height: 45px;
   margin-right: 0.5rem;
-  margin-top: -0.8rem;
+  margin-top: 2rem;
 }
 
 .footer-heading,
 .footer-description {
-  color: var(--main-text-color);
+  margin-left: 1rem;
 }
 
 .footer-heading {
-  font-size: 1rem;
+  font-size: 0.8rem;
   color: #2b2b2b;
 }
 
@@ -441,22 +461,23 @@ hr {
 }
 
 /* about page */
-/* ABOUT PAGE */
-
-/* SECTION 1 */
 
 .about-heading {
   text-align: center;
-  padding: 2rem 0 1.5rem 0;
+  padding: 2rem 0 0 1rem;
+  width: 80%;
+  color: #ec5242;
 }
 
 .about-description {
   margin: 2.5rem auto 0;
-  background-color: #fff;
+  background-color: rgb(212, 209, 209);
+  padding: 6%;
   border: 1px solid var(--border-lines-color);
 }
 
 .contact-text {
+  background-color: rgb(212, 209, 209);
   text-align: center;
   font-size: 0.8rem;
   padding: 1.5rem 2rem;
@@ -464,12 +485,11 @@ hr {
 }
 
 .email-contact {
+  background-color: rgb(212, 209, 209);
   font-size: 0.8rem;
   text-decoration: underline;
   text-align: center;
 }
-
-/* *******/
 
 #logo-section {
   background-color: #fff;
@@ -504,17 +524,18 @@ hr {
 }
 #about {
   background-color: #d3d3d3;
-  height: 562px;
+  padding-bottom: 1rem;
 }
 
 .about-logo-img {
-  width: 50px;
-  height: 50px;
+  width: 150px;
+  height: auto;
 }
 
 .about-logo-text {
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-weight: 900;
+  width: 190px;
 }
 
 .date-location {
@@ -526,21 +547,21 @@ hr {
   color: var(--main-text-color);
 }
 
-/* ****** */
+/******* */
 
-#past-competition {
+#upcomming {
   padding-top: 2rem;
   text-align: center;
 }
 
-.past-competition-heading {
+.upcomming-heading {
   color: var(--main-text-color);
 }
 
-.past-competition-description {
+.upcomming-description {
   color: var(--main-text-color);
   padding: 1rem 0 2rem;
-  font-size: 0.7rem;
+  font-size: 0.9rem;
   max-width: 80%;
   margin: 0 auto;
 }
@@ -612,6 +633,10 @@ hr {
   color: var(--program-text-color);
 }
 /* about page end */
+#partner,
+#footer {
+  display: none;
+}
 @media screen and (min-width: 768px) {
   .header-wraper {
     display: block;
@@ -623,13 +648,16 @@ hr {
     font-size: 12px;
     columns: #fff;
   }
+  .header-wraper ul {
+    margin-right: 5%;
+  }
   .header-ul li a {
     display: flex;
     align-items: center;
     height: 25px;
     margin: 0;
     padding: 0;
-    width: 80px;
+    width: 70px;
     list-style: none;
     text-decoration: none;
     font-size: 10px;
@@ -694,22 +722,22 @@ hr {
     list-style: none;
     color: #000;
   }
-  .window-desktop-nav li a :hover {
+  .window-desktop-nav li a:hover {
     color: #ec5242;
   }
-  .speaker-btn {
+
+  #speaker-btn {
     display: none !important;
   }
 
   .home-wrapper {
     background-color: #d3d3d3;
-    /* background-image: url("https://ntb.gov.np/storage/website/landscape2-44237cb6.jpeg"); */
     background-position: cover;
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: transparent;
     transition: 5px;
     height: 560px;
-    padding-left: 150px;
+    padding-left: 177px;
   }
   .bg-wrapper {
     height: 150px;
@@ -717,7 +745,7 @@ hr {
     background-position: cover;
     background-repeat: no-repeat;
   }
-  .canpion h2 {
+  .canpion a {
     border: #ec5242 solid 6px;
     font-size: 14px;
     text-decoration: none;
@@ -732,9 +760,9 @@ hr {
   }
   .canpion {
     display: flex;
-    width: 1000px;
-    margin-top: 4%;
-    margin-left: 120%;
+    /* width: 1000px; */
+    /* margin-top: 4%; */
+    /* margin-left: 120%; */
   }
   .hello-wrapper {
     background-color: #958585;
@@ -948,14 +976,24 @@ hr {
   /* partner start */
   #partner {
     background-color: #272a31;
-    height: 170px;
+    height: 200px;
     margin-top: 6%;
+  }
+  .left-container1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .left-container {
+    display: flex;
+    justify-content: center;
   }
   /* footer start */
   #footer {
-    padding: 5rem;
+    padding: 3rem;
     display: flex;
     justify-content: space-between;
+    height: 0;
   }
 
   .left-container {
@@ -976,10 +1014,10 @@ hr {
   }
 
   .footer-description {
-    margin-top: 3%;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     color: #262525;
     margin-left: 5%;
+    font-weight: 100;
   }
   /* about page */
   .video-container {
@@ -1014,5 +1052,9 @@ hr {
   .about-logo-img {
     width: 200px;
     height: 90px;
+  }
+  #partner,
+  #footer {
+    display: block;
   }
 }
