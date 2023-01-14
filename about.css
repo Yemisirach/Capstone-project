@@ -483,14 +483,15 @@ hr {
 }
 
 .footer-heading {
-  font-size: 1.5rem;
+  font-size: 0.7rem;
   margin-left: 1rem;
-  color: #2b2b2b;
+  color: #f0ecec;
+  font-weight: 100;
 }
 
 .footer-description {
   font-size: 0.6rem;
-  color: #090909;
+  color: #f7f2f2;
   margin-left: 1rem;
 }
 
@@ -590,9 +591,20 @@ hr {
   text-align: center;
 }
 
+.upcomming-heading1 {
+  content: "";
+  position: absolute;
+  left: calc((100% - 50px) / 2);
+  bottom: -100px;
+  height: 1px;
+  width: 70px;
+  border-bottom: 2px solid #ec5242;
+}
+
 .upcomming-heading {
   color: var(--main-text-color);
-  font-size: 1.4rem;
+  font-size: 2rem;
+  width: 100%;
 }
 
 .upcomming-description {
