@@ -595,7 +595,6 @@ hr {
   content: "";
   position: absolute;
   left: calc((100% - 50px) / 2);
-  bottom: -100px;
   height: 1px;
   width: 70px;
   border-bottom: 2px solid #ec5242;
@@ -1149,6 +1148,8 @@ hr {
     line-height: 1.2rem;
     display: flex;
     justify-content: center;
+    width: 60%;
+    margin: auto;
   }
 
   #logo-section {
