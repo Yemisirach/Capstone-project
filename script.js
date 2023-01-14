@@ -79,7 +79,8 @@ const featureContainer = document.querySelector('.feature-speaker');
 const creatfeaturespeaker = () => {
   featureContainer.insertAdjacentHTML(
     'afterbegin',
-    `<div class="single-feature-speker">
+    `
+    <div class="single-feature-speker">
     <div class="image">
       <img src="./image/chessboard-bg-img.jpg"
       alt="white board bg"

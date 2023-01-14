@@ -3,6 +3,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -138,12 +139,11 @@ ul {
   font-family: "lato", sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 32px;
+  font-size: 2rem;
+  padding: 3%;
   line-height: 44px;
   color: #f0eeee;
   text-decoration: none;
-
-  /* display: none; */
 }
 
 .show-menu {
@@ -155,7 +155,7 @@ ul {
   bottom: 0;
   height: 100vh;
   z-index: 1;
-  padding: 30px;
+  padding: 1rem;
   background-color: #ec5242;
 }
 
@@ -165,7 +165,7 @@ ul {
 
 /* ***** */
 .nav-wrapper {
-  height: 70px;
+  height: 10%;
   display: flex;
   align-items: center;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
@@ -177,7 +177,8 @@ ul {
 
 .bi {
   color: orange;
-  font-size: 40px;
+  font-size: 30px;
+  margin-top: 15%;
   align-items: center;
   display: flex;
   justify-content: center;
@@ -186,12 +187,6 @@ ul {
 .bi-one {
   color: cornsilk;
   font-size: 12px;
-}
-
-.science {
-  font-size: 15px;
-  width: 150px;
-  color: #ec5242;
 }
 
 .home-wrapper {
@@ -240,36 +235,36 @@ ul {
 }
 
 .date {
-  font-size: 14px;
+  font-size: 1.5rem;
   font-weight: 700;
 }
 
 .place {
-  font-size: 12px;
+  font-size: 0.8rem;
   font-weight: 200;
-  margin-bottom: 100px;
+  margin-bottom: 20%;
 }
 
 /* main */
 .mainwrapper {
   background-color: #000;
   background-image: url(./image/carbon_fibre.png);
-  height: 960px;
+  width: 100%;
 }
 
 .mainProgramdiv-wrapper {
   display: flex;
   justify-content: center;
-  width: 375px;
+  width: 100%;
   align-items: center;
-  margin-top: 30px;
+  margin-top: 0.5rem;
 }
 
 .mainwrapperone {
-  width: 375px;
+  width: 100%;
   display: flex;
   justify-content: center;
-  height: 100px;
+  height: 20vh;
   align-items: center;
   font-size: 16px;
   color: aliceblue;
@@ -279,18 +274,19 @@ ul {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  height: 300px;
   width: 100%;
   font-size: 20px;
   color: aliceblue;
-  margin-top: 200px;
+  margin-bottom: 25%;
 }
 
 .mainwrapper-list {
   background-color: hsla(220, 3%, 39%, 0.489);
   border: 1px;
-  margin: 4px 15px 4px 15px;
-  height: 140px;
+  margin: auto;
+  margin-top: 2%;
+  height: 120px;
+  width: 90%;
   display: flex;
   justify-content: space-between;
   flex-direction: row;
@@ -300,21 +296,19 @@ ul {
 }
 
 .card-title h2 {
-  font-size: 12px;
+  font-size: 0.7rem;
   color: #ec5242;
   width: 100px;
   font-weight: 600;
   align-items: center;
   display: flex;
-  justify-content: center;
 }
 
 .paragraph-wrapper {
   padding-top: 25px;
   align-items: center;
   font-size: 11px;
-  width: 170px;
-  height: 140px;
+  width: 100%;
 }
 
 .wholeProgram {
@@ -323,7 +317,7 @@ ul {
   font-size: 15px;
   height: 50px;
   margin: 3rem;
-  margin-top: -88px;
+  margin-top: -20%;
   align-items: center;
   position: relative;
   border: 1px;
@@ -461,10 +455,10 @@ hr {
 
 /* footer section */
 #footer {
-  padding: 2rem;
+  padding: 1.5rem;
   display: flex;
   justify-content: space-between;
-  height: 100px;
+  height: 140px;
 }
 
 .left-container {
@@ -477,7 +471,6 @@ hr {
   width: 110px;
   height: 45px;
   margin-right: 0.5rem;
-  margin-top: 2rem;
 }
 
 .footer-heading,
@@ -486,12 +479,12 @@ hr {
 }
 
 .footer-heading {
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   color: #2b2b2b;
 }
 
 .footer-description {
-  font-size: 0.7rem;
+  font-size: 0.6rem;
   color: #090909;
 }
 
@@ -750,16 +743,10 @@ hr {
   }
 
   .logo-wrapper {
-    padding-left: 150px;
+    padding-left: 30%;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #ec5242;
-  }
-
-  .science {
-    font-size: 15px;
-    width: 150px;
     color: #ec5242;
   }
 
@@ -773,14 +760,16 @@ hr {
     justify-content: space-between;
     margin: 2%;
     align-items: center;
-    width: 700px;
+    width: 100%;
     flex-direction: row;
-    height: 30px;
-    margin-right: 14%;
+    height: 10%;
+    margin-left: 13%;
   }
 
   .window-desktop-nav li {
     list-style: none;
+    width: 80%;
+    text-align: center;
   }
 
   .wholeProgram1 {
@@ -789,6 +778,7 @@ hr {
     color: #d3d3d3;
     font-size: 15px;
     align-items: center;
+    padding-bottom: 2rem;
   }
 
   .window-desktop-nav li a:hover {
@@ -805,8 +795,7 @@ hr {
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: transparent;
     transition: 5px;
-    height: 560px;
-    padding-left: 177px;
+    padding-left: 20%;
   }
 
   .bg-wrapper {
@@ -821,23 +810,24 @@ hr {
   }
 
   .card-title h2 {
-    font-size: 15px;
+    font-size: 16px;
     color: #ec5242;
     align-items: center;
     display: flex;
     justify-content: center;
-    margin: 10px;
+    margin: 1%;
+    width: 100%;
   }
 
   .canpion a h2 {
     display: block;
     border: #ec5242 solid 6px;
-    font-size: 14px;
+    font-size: 0.8rem;
     text-decoration: none;
-    padding: 5px;
+    padding-top: 3px;
     color: #ec5242;
     font-weight: 600;
-    width: 100px;
+    width: 100%;
     height: 40px;
   }
 
@@ -848,20 +838,20 @@ hr {
   .hello-wrapper {
     background-color: #958585;
     mix-blend-mode: multiply;
-    height: 150px;
-    padding-left: 200px;
+    height: 20%;
+    padding-left: 15%;
   }
 
   .hello-wrapperh {
     color: #ec5242;
-    font-size: 45px;
+    font-size: 2rem;
     font-weight: 600;
   }
 
   .creat-wrapper h1 {
-    width: 960px;
+    width: 100%;
     color: #ec5242;
-    font-size: 65px;
+    font-size: 3rem;
     line-height: 60px;
     font-weight: 700;
   }
@@ -871,12 +861,12 @@ hr {
   }
 
   .pargraph {
-    width: 600px;
-    font-size: 16px;
+    width: 100%;
+    font-size: 1.2rem;
   }
 
   .date {
-    font-size: 30px;
+    font-size: 2rem;
     font-weight: 700;
   }
 
@@ -891,23 +881,19 @@ hr {
 
   /* main */
   .mainwrapper {
-    height: 500px;
+    height: auto;
+    width: 100%;
     background-color: #000;
     background-image: url(./image/carbon_fibre.png);
-  }
-
-  .mainProgramdiv-wrapper {
-    display: flex;
-    margin-left: 35%;
   }
 
   .mainwrapperone {
     display: flex;
     justify-content: center;
-    height: 100px;
+    height: 10vh;
     width: 100%;
     align-items: center;
-    font-size: 20px;
+    font-size: 4rem;
     color: aliceblue;
   }
 
@@ -915,32 +901,36 @@ hr {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    height: 300px;
-    width: 970px;
+    width: 90%;
     font-size: 20px;
     color: aliceblue;
-    margin-top: 0;
+    margin-bottom: 0;
   }
 
   .mainwrapper-list {
     background-color: hsla(220, 3%, 39%, 0.489);
     border: 1px;
-    margin: 2px;
-    width: 180px;
-    height: 250px;
+    margin: auto;
+    margin-top: 2%;
+    width: 97%;
+    height: 80%;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    padding-top: 50px;
+    padding-top: 10%;
     list-style: none;
     align-items: center;
+    text-align: center;
+  }
+
+  .mainwrappe {
+    width: 21%;
   }
 
   .paragraph-wrapper {
-    padding: 0;
-    font-size: 12px;
-    width: 127px;
-    height: 100px;
+    font-size: 0.7rem;
+    padding: 3%;
+    height: 100%;
     align-items: center;
     display: flex;
     justify-content: center;
@@ -956,10 +946,13 @@ hr {
   }
 
   .feature-speaker {
-    margin: 0 25rem 0 25rem;
+    /* margin: 0 25rem 0 25rem; */
     display: grid;
-    grid-template-columns: 2fr 2fr;
+    grid-template-columns: 1fr 1fr;
     justify-content: center;
+    width: 100%;
+    margin: 0;
+    padding: 0 3rem 0 4rem;
   }
 
   .feature-speaker div {
@@ -971,8 +964,10 @@ hr {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin: 2rem;
-    margin-left: 8rem;
+    position: relative;
+    padding-left: 2rem;
+    width: 100%;
+    height: auto;
   }
 
   .image {
@@ -983,21 +978,26 @@ hr {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    margin-left: 2rem;
-    width: 250px;
-    height: 300;
+    margin-left: 1rem;
+
+    /* width: 250px; */
+    height: auto;
+    width: 60%;
   }
 
   .speaker-name {
     padding-bottom: 0.5rem;
     font-size: 0.9rem;
+    width: 100%;
   }
 
   .speaker-details {
     color: #ec5242;
     font-size: 0.6rem;
     font-style: italic;
-    width: 250px;
+
+    /* width: 250px; */
+    width: 100%;
   }
 
   .border-line {
@@ -1022,8 +1022,8 @@ hr {
 
   .avatar {
     display: block;
-    width: 160px;
-    height: 160px;
+    width: 140px;
+    height: 140px;
   }
 
   .mobile {
@@ -1080,7 +1080,6 @@ hr {
 
   .left-container {
     align-items: center;
-    padding-left: 20rem;
     display: flex;
     justify-content: center;
   }

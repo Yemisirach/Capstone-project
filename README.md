@@ -47,7 +47,7 @@ se up new repository and prepare it for development using best practices(e.g.lin
 
 ## 🚀 Live Demo
 
-<a href="https://yemisirach.github.io/Capstone/">Live Demo link</a>
+<a href="https://yemisirach.github.io/Capstone-project/">Live Demo link</a>
 
 ## 🚀 Live Demo video
 
@@ -82,15 +82,12 @@ Clone this repository to your desired folder:
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
+> This project is a replica from Original design idea by <a href = "https://www.behance.net/adagio07">Cindy Shin in Behance</a>. License can be found at <a href = "https://creativecommons.org/licenses/by-nc/4.0/legalcode">License</a>
 
-I would like to thank Microvers rewiwer...
--Hat tip to anyone whose code was used
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
