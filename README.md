@@ -37,7 +37,7 @@ Description for the fris mileston in he process of creating your portfolio websi
 
 se up new repository and prepare it for development using best practices(e.g.linters). build the frist 2 section of the mobile frist and desktop verision using the templae you chose.
 
-[My-portfolio] is a...
+[capstone-project] is a...
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -50,6 +50,7 @@ se up new repository and prepare it for development using best practices(e.g.lin
 <a href="https://yemisirach.github.io/Capstone-project/">Live Demo link</a>
 
 ## 🚀 Live Demo video
+<a href="https://www.loom.com/share/1975fa9a586843a5a671f5f3fe8d7a06" >presentation video</a>
 
 <!-- GETTING STARTED -->
 
