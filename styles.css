@@ -178,7 +178,8 @@ ul {
 .bi {
   color: orange;
   font-size: 30px;
-  margin-top: 15%;
+  margin-top: 8%;
+  margin-right: 2%;
   align-items: center;
   display: flex;
   justify-content: center;
@@ -300,7 +301,9 @@ ul {
   color: #ec5242;
   width: 100px;
   font-weight: 600;
+  margin-top: 40px;
   align-items: center;
+  justify-content: center;
   display: flex;
 }
 
@@ -760,10 +763,10 @@ hr {
     justify-content: space-between;
     margin: 2%;
     align-items: center;
-    width: 100%;
+    width: 70%;
     flex-direction: row;
     height: 10%;
-    margin-left: 13%;
+    margin-left: 18%;
   }
 
   .window-desktop-nav li {
@@ -795,7 +798,7 @@ hr {
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: transparent;
     transition: 5px;
-    padding-left: 20%;
+    padding-left: 14%;
   }
 
   .bg-wrapper {
@@ -824,10 +827,10 @@ hr {
     border: #ec5242 solid 6px;
     font-size: 0.8rem;
     text-decoration: none;
-    padding-top: 3px;
+    padding-top: 6px;
     color: #ec5242;
     font-weight: 600;
-    width: 100%;
+    width: 120%;
     height: 40px;
   }
 
